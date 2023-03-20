@@ -1,0 +1,15 @@
+export const dataAguaChiler = [
+    ["Mounths", 'Temperatura(°C)'],
+    ["Jan", 8],
+    ["Fev", 10],
+    ["Mar", 13],
+    ["Abr", 14],
+    ["Mai", 10],
+    ["Jun", 11],
+    ["Jul", 9],
+    ["Ago", 8],
+    ["Set", 11],
+    ["Out", 12],
+    ["Nov", 12],
+    ["Dez", 10],
+  ];

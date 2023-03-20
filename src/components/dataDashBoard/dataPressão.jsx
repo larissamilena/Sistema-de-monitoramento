@@ -1,0 +1,15 @@
+export const dataPressao = [
+    ["Mounths", 'Pressão(Bar)'],
+    ["Jan", 15.3],
+    ["Fev", 15],
+    ["Mar", 15.6],
+    ["Abr", 15.8],
+    ["Mai",15.5],
+    ["Jun", 15.4],
+    ["Jul", 15.3],
+    ["Ago", 15.3],
+    ["Set", 15.3],
+    ["Out", 15],
+    ["Nov", 15.6],
+    ["Dez", 15.1],
+  ];

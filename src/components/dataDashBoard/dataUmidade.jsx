@@ -1,0 +1,15 @@
+export const dataUmidade = [
+    ["Mounths", 'Umidade(%)'],
+    ["Jan", 50],
+    ["Fev", 52],
+    ["Mar", 53],
+    ["Abr", 51],
+    ["Mai", 52],
+    ["Jun", 54],
+    ["Jul", 51],
+    ["Ago", 50],
+    ["Set", 51],
+    ["Out", 49],
+    ["Nov", 48],
+    ["Dez", 50],
+  ];
