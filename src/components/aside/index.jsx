@@ -3,6 +3,8 @@ import { BsPersonFill } from 'react-icons/bs'
 
 import Logo from '../../assets/logo-sumedical.png'
 
+import { Link } from 'react-router-dom'
+
 export function Aside() {
     return(
         <div className=" font-roboto text-gray-600 grid justify-around  ">
@@ -11,7 +13,7 @@ export function Aside() {
                     <img src={Logo} alt="foi" className='w-3/4' />
                 </a>
                 
-                <nav>
+                <nav className='flex  flex-col h-full relative'>
                     <ul className='grid gap-5 mt-10'>
                         
                         <li className='cursor-auto'>
@@ -32,6 +34,13 @@ export function Aside() {
                             </a>
                         </li>
                     </ul>
+
+                    <Link 
+                      to='singin'
+                      className=' justify-center flex absolute items-center bottom-10 left-0 '  
+                    >
+                        Sair
+                    </Link>
                 </nav>
             </aside>
         </div>
